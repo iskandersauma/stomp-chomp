@@ -1,0 +1,11 @@
+controller_list:
+  - name: fake_asp_arm_controller
+    joints:
+      - X
+      - Y
+      - B
+      - Z
+      - A
+  - name: fake_asp_end_effector_controller
+    joints:
+      []

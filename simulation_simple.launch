@@ -1,0 +1,8 @@
+<!--Robot simulation environment. Launches the fake controllers, and the move server.
+The behaviour tree is not included.-->
+<launch>
+  <rosparam param="/SIMULATION">true</rosparam>
+  <rosparam param="/EXECUTE">true</rosparam>
+  <include file="$(find asp_robot)/launch/asp_empty.launch"/>
+  <include file="$(find asp_tools)/launch/move_server.launch"/>
+</launch>

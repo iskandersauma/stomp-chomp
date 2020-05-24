@@ -1,0 +1,27 @@
+# these values (except B) are the limits set on the servoamplifiers
+joint_limits:
+  X:
+    has_velocity_limits: true
+    max_velocity: 0.3 #0.7
+    has_acceleration_limits: true
+    max_acceleration: 1.4
+  Y:
+    has_velocity_limits: true
+    max_velocity: 0.3 #0.7
+    has_acceleration_limits: true
+    max_acceleration: 1.4
+  B:
+    has_velocity_limits: true
+    max_velocity: 0.7 #1.5
+    has_acceleration_limits: true
+    max_acceleration: 2.0
+  Z:
+    has_velocity_limits: true
+    max_velocity: 0.4 #1.2
+    has_acceleration_limits: true
+    max_acceleration: 1.8
+  A:
+    has_velocity_limits: true
+    max_velocity: 5.0
+    has_acceleration_limits: true
+    max_acceleration: 5.0
